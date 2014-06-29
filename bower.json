@@ -1,0 +1,19 @@
+{
+  "name": "waroengbali.com",
+  "version": "0.0.0",
+  "authors": [
+    "redaready <redaready.dev@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.3",
+    "google-map": "PolymerLabs/google-map"
+  }
+}
