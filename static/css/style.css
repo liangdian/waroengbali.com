@@ -78,7 +78,8 @@ body {
 	border:0;
 	transform: rotate(-8deg);
 	display: block;
-	behavior: url(-ms-transform.htc);     /* Firefox */     -moz-transform:rotate(45deg);     /* Safari and Chrome */     
+	behavior: url(-ms-transform.htc);     /* Firefox */     
+	-moz-transform:rotate(-8deg);     /* Safari and Chrome */     
 	-webkit-transform: rotate(-8deg);     /* Opera */     
 	-o-transform:rotate(-8deg);     /* IE9 */     
 	-ms-transform:rotate(-8deg);     /* IE6,IE7 */     
