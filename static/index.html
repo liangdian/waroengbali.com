@@ -3,9 +3,15 @@
 <head>
 	<title>Waroengbali - Indonesians Food & Drinks </title>
 	<meta charset="utf-8">
+	<meta name="robots" content="index, follow" />
+  	<meta name="keywords" content="" />
+  	<meta name="description" content="" />
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-	<script src="lib/platform/platform.js"></script>	
+	<script src="lib/platform/platform.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="lib/bxslider-4/jquery.bxslider.min.js"></script>
+	<link href="lib/bxslider-4/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="import" href="lib/google-map/google-map.html">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<!--[if IE 6]>
@@ -43,29 +49,31 @@
 					</li>
 				</ul>
 			</div>
-			<div id="body">
-				<div class="slider">
-					<ul>
-						<li class="first">
-							<h2></h2>
-							<p>
-								blabla
-							</p>
-							<a href="reservation.html">Réservation</a>
-						</li>
-						<li>
-							<a href="index.html"> <img src="images/home1.png" width="640" height="331" alt="waroengbali" title="waroengbali"></a>
-						</li>
-					</ul>
+			<div id="body" class="pure-g">
+				<div class="slider pure-u-1">
+				<ul class="bxslider">
+					<li><img src="images/DSC_0989c.JPG" alt="waroengbali" title="waroengbali"/></li>
+					<li><img src="images/DSC_0981.JPG" alt="waroengbali" title="waroengbali"/></li>
+					<li><img src="images/DSC_0979c.JPG" alt="waroengbali" title="waroengbali"/></li>
+					<li><img src="images/DSC_0985.JPG" alt="waroengbali" title="waroengbali"/></li>
+					<li><img src="images/DSC_0331.JPG" alt="waroengbali" title="waroengbali"/></li>
+				</ul>
 				</div>
-
+    <script>
+    $(document).ready(function() {
+      $('.bxslider').bxSlider({
+	      	mode: 'fade',
+	  		captions: true}
+  		);
+    });
+    </script>
 				<div id="content" class="pure-g">
-					<div class="aside pure-u-1-3">
+					<div class="aside pure-u-1 pure-u-md-1-3">
 						<h2>Contact</h2>
 						<ul>
 							<li>
 								<h3>Téléphone</h3>
-								<p><i class="fa fa-phone"></i>0667942168</a>
+								<p><i class="fa fa-phone"></i> 0667942168 / 0491480416</a>
 								</p>
 							</li>
 							<li>
@@ -81,7 +89,7 @@ Dîner: lundi au samedi 19h - 23h
 							</li>
 						</ul>
 					</div>
-					<google-map latitude="43.283744" longitude="5.383736" zoom="12" disableDefaultUI class="pure-u-2-3">
+					<google-map latitude="43.283744" longitude="5.383736" zoom="12" disableDefaultUI class="pure-u-2-3 pure-u-md-2-3">
 				      <google-map-marker latitude="43.283744" longitude="5.383736" icon="http://google-maps-icons.googlecode.com/files/restaurant2.png"
 				                         title="Waroengbali Marseille" draggable="false">
 				      </google-map-marker>
@@ -110,7 +118,7 @@ Dîner: lundi au samedi 19h - 23h
 						</ul>
 					</li>
 					<li>
-						<span>Follow us:</span> <a href="https://www.facebook.com/Waroengbalimarseile" class="facebook">&nbsp;</a> <a href="https://twitter.com/wenguanghuang" class="twitter">&nbsp;</a>
+						<span>Suivez nous:</span> <a href="https://www.facebook.com/Waroengbalimarseile" class="facebook">&nbsp;</a> <a href="https://twitter.com/wenguanghuang" class="twitter">&nbsp;</a>
 					</li>
 					<li class="last">
 						<span> &copy; Copyright 2014 &copy;. Tous droits réservés.</span>

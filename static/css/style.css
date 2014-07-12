@@ -129,85 +129,12 @@ body {
 }
 #background #page #body .slider {
 	width:960px;
-	height:331px;
 	margin:0 auto;
 	overflow:hidden;
 }
-#background #page #body .slider ul {
-	width:960px;
-	margin:0;
-	padding:0;
-	list-style-type:none;
-	overflow:hidden;
-}
-#background #page #body .slider ul li.first {
-	width:320px;
-	height:331px;
-	background: url("../images/bg-body.gif");
-	float:left;
-	text-align:center;
-	overflow:hidden;
-}
-#background #page #body .slider ul li.first a {
-	background: url("../images/button.gif");
-	background-position: 0 -61px;
-	width:217px;
-	height:35px;
-	font-family:Georgia, serif;
-	font-weight:bold;
-	font-size:20px;
-	line-height:35px;
-	color:#ffffff;
-	text-align:center;
-	margin:0 50px 10px 50px;
-	display:block;
-}
-#background #page #body .slider ul li.first p {
-	color:#633f0f;
-	font-family:Arial;
-	font-size:14px;
-	padding:0 20px;
-	margin-top:0px;
-}
-#background #page #body .slider ul li.first p a {
-	color:#633f0f;
-	float:none;
-	text-decoration:none;
-	margin:0;
-	padding:0;
-}
-#background #page #body .slider ul li.first p a:hover {
-	color:#caa9b4;
-}
-#background #page #body .slider ul li.first p a img {
-	border:0;
-}
-#background #page #body .slider ul li.first span {
-	color:#980d03;
-	font-family:Georgia, serif;
-	font-weight:bold;
-	font-size:50px;
-}
-#background #page #body .slider ul li.first h2 {
-	color:#572c00;
-	padding:0 20px;
-	font-size:33px;
-	line-height:35px;
-	margin:40px 0 10px 0;
-	font-family:Arial;
-	text-transform:uppercase;
-}
-#background #page #body .slider ul li {
-	float:left;
-}
-#background #page #body .slider ul li a {
-	float:left;
-	text-decoration:none;
-	margin:0;
-	padding:0;
-}
-#background #page #body .slider ul li a img {
-	border:0;
+.slider ul{
+	padding: 0px 0px;
+	margin: 0px;
 }
 #background #page #body ul#featured {
 	list-style-type:none;
